@@ -46,7 +46,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
     LoadStringW(hInstance, IDC_CLIENT, szWindowClass, MAX_LOADSTRING);
     MyRegisterClass(hInstance);
-
+ 
+    int a = 0;
     // 애플리케이션 초기화를 수행합니다:
     if (!InitInstance(hInstance, nCmdShow))
     {
