@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{7822f1e9-746b-49ad-a355-29e2294d72a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Resource">
+      <UniqueIdentifier>{6de0db2e-5c38-4c07-aa03-ebdb475fc3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Header">
+      <UniqueIdentifier>{1321d307-5725-4b6b-b929-f6e951e21f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{cc6742f2-4f0b-42e9-80ce-33dc4ed504ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\High Level Interface">
+      <UniqueIdentifier>{2dfd0a04-9131-4df6-9fc8-04198a1efd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{f03ff7a4-e32e-467e-bb32-a4aa2d19837e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Time">
+      <UniqueIdentifier>{1ea244ed-e495-4f04-b6e2-1a35e96a4d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{9f727487-4563-43c1-bcdd-db9983ce88b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Entity">
+      <UniqueIdentifier>{604b1ad3-3cf0-4355-8e46-f96dbdce9058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Layer">
+      <UniqueIdentifier>{614dd6f4-9486-4247-84a4-ff2831563c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject">
+      <UniqueIdentifier>{60da317a-4cb8-4c7a-84a3-3743d3292038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{f2428ed5-1aa6-4352-b3f0-fa39e4fc74f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0b2c3a71-b16f-4b0e-bc2d-ad2f850f3c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{f5775738-061a-473f-9331-98cb8c6b2efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene">
+      <UniqueIdentifier>{cab1d942-db45-4394-99d1-1a45844f0454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource">
+      <UniqueIdentifier>{12590699-b7d3-4aac-98fc-da8464d48b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject">
+      <UniqueIdentifier>{3c4d4714-e6d5-4013-abed-ef75fd5fa5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\01.Player">
+      <UniqueIdentifier>{336275de-17ab-4c11-ae19-6c8848838efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster">
+      <UniqueIdentifier>{37c7323d-6ac3-4733-802c-0fb39c6b3731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\00.BackGround">
+      <UniqueIdentifier>{0e0cd107-6c96-4791-8a6f-9586b93f1048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Camera">
+      <UniqueIdentifier>{b1a4ea04-0de6-479f-acac-c53aab20746c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\00.Transform">
+      <UniqueIdentifier>{6cb22f6b-2642-4b75-bb4b-5c116ae94cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\01.SpriteRenderer">
+      <UniqueIdentifier>{8925ed3c-0b27-4ffa-a99f-597bfc10587b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\02.Animator">
+      <UniqueIdentifier>{3f46fa47-2e4f-4671-92e9-64451a9f3f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Animation">
+      <UniqueIdentifier>{67fa3087-845c-4481-9909-463e78384900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene\00.TitleScene">
+      <UniqueIdentifier>{32a1d304-5f0e-4dd1-b81d-ad846b0d22b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\03.Collider">
+      <UniqueIdentifier>{c67beacd-c660-44be-99d3-5a73103a699a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\04.CollisionManager">
+      <UniqueIdentifier>{389c4587-2ffb-44ba-a5b1-6cebbb7df706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Texture">
+      <UniqueIdentifier>{6222d243-d96c-4240-afae-99f1505f8013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI">
+      <UniqueIdentifier>{ea64d050-dd42-4465-97bd-78001271fe23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\05.Rigidbody">
+      <UniqueIdentifier>{f92547d1-8bb5-4375-a847-efe2b4993b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\05.Floor">
+      <UniqueIdentifier>{6580049a-c94d-47cf-a127-bec9a91fb9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect">
+      <UniqueIdentifier>{a9360dca-e2cb-4c55-a80e-0e3af5946e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\06.Potal">
+      <UniqueIdentifier>{91054db1-1c17-4547-ab7f-d58bb657d45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\07.Wall">
+      <UniqueIdentifier>{2686ca28-01e5-4909-8cf7-aeaaa197baf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\08.Rope">
+      <UniqueIdentifier>{6cae7a5a-935a-4167-8460-4a0960a40df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene\01.StageScene">
+      <UniqueIdentifier>{8e47c0cc-3652-4862-9f5d-199c8ce445e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene\02.MushMomScene">
+      <UniqueIdentifier>{941c8e49-64ab-487f-9113-b20653e10eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene\03.StageScene2">
+      <UniqueIdentifier>{9be67ea4-d7b4-4376-9689-48569839a3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene\04.StageScene3">
+      <UniqueIdentifier>{76e88cc0-57ae-4836-aacf-a4baa64f3a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\09.Login">
+      <UniqueIdentifier>{b6723186-40b6-493c-895d-d2cbfb7e084a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\00.Normal">
+      <UniqueIdentifier>{58ca547a-3d77-4028-b79c-99da0a33556f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\00.Normal\00.GreenMush">
+      <UniqueIdentifier>{b861b221-4316-4800-a3a9-226a52f89f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\00.Normal\01.OrangeMush">
+      <UniqueIdentifier>{fd43bfa0-b869-409f-ae74-9c59573f3902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\00.Normal\02.Robo">
+      <UniqueIdentifier>{9079ea3d-67c8-48ba-bfcb-d26a650907a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\00.Normal\03.MasterRobo">
+      <UniqueIdentifier>{1381823c-fe21-4048-baa6-d57d1197157b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\01.Ability">
+      <UniqueIdentifier>{9aae47b6-485d-4e3a-8a5c-368b2dc1cb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\01.Ability\00.GateKeeper">
+      <UniqueIdentifier>{1bb441dc-3004-4c72-bda7-8f34742cb561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\01.Ability\01.Thanatos">
+      <UniqueIdentifier>{4a52d88d-c15d-43ae-84df-43776933ec8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\02.Boss">
+      <UniqueIdentifier>{eecdf66b-5af2-4548-ac6d-3868d7638ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\02.Boss\01.Papulatus">
+      <UniqueIdentifier>{27fb2bfd-483c-4887-bd12-84411a4fc41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\02.Boss\00.MushMom">
+      <UniqueIdentifier>{84bf3c2f-5f5d-4f69-b342-2afa6a1d3545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect">
+      <UniqueIdentifier>{9c5c1e05-bc2b-4980-809f-042de4ee1d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar">
+      <UniqueIdentifier>{7930f6c2-8ff9-4534-b683-33e0a80607e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\01.DamageManager">
+      <UniqueIdentifier>{11bb8385-cb34-4b95-bf5c-5869be848c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\01.DamageManager\00.PlayerDamageSkin">
+      <UniqueIdentifier>{cf8cdaaa-6fc5-4a07-a2e8-ee29b3004aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\01.DamageManager\02.MonsterDamageSkin">
+      <UniqueIdentifier>{69575056-3218-4a19-9aa6-851715426779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar">
+      <UniqueIdentifier>{7b929f36-6df2-4338-8055-1dc000e3343b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\02.ExpBar">
+      <UniqueIdentifier>{92373a2d-4484-4254-9d91-1177eaa10db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\00.HpBar">
+      <UniqueIdentifier>{9a5dbcd5-a761-43c9-a2d4-06d72f733f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\01.MpBar">
+      <UniqueIdentifier>{5b70f215-27a8-4827-9e5d-6b633871826e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar">
+      <UniqueIdentifier>{86213db6-4f35-4bc4-8f5a-cab8cf3dce91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\00.MushMomBar">
+      <UniqueIdentifier>{e5b7f68e-cdff-4404-9ce2-7ff1f6cfa0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene\05.BossScene">
+      <UniqueIdentifier>{6fca0d45-61f0-4785-aac9-bfa3419e9423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\00.GateKeeperAttack">
+      <UniqueIdentifier>{5ebf8c6e-1af7-4b02-a865-6ef4bf5a0685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\01.ThanatosAttack">
+      <UniqueIdentifier>{6565bdd5-ef22-46f5-81d2-60a29b63cd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\01.PapulatusHpBar">
+      <UniqueIdentifier>{804b21df-7d98-4b0b-a814-974e75e55d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{ace8a06c-9140-4ef5-bf71-3ae798e38043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound\00.SoundManager">
+      <UniqueIdentifier>{67eb0531-24a7-4f05-a332-27c5a8df6f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\01.Ability\02.MasterCronus">
+      <UniqueIdentifier>{01bd8746-2663-4779-b9db-98780cd9b016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\03.MushMomSkill">
+      <UniqueIdentifier>{1293c9e0-6d2c-438d-8704-50a790f15bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\02.MasterCronusAttack">
+      <UniqueIdentifier>{e41d3681-7a03-436b-8f00-b5d82f4c2493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill">
+      <UniqueIdentifier>{8371f992-12e6-4e66-b4a1-40dc81c09071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\00.PapulatusSkill1">
+      <UniqueIdentifier>{32e054eb-6540-489e-a964-cb0b5f3d8bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\01.PapulatusSkill2">
+      <UniqueIdentifier>{a134c421-0217-4ea0-9af1-39a5c8e616e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\02.PapulatusSkill3">
+      <UniqueIdentifier>{0d993947-6e43-4a1e-bc1b-1dd472de4fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\03.PapulatusSkill4">
+      <UniqueIdentifier>{c0a94eff-4b25-496d-95b2-0c64f5cb5860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\04.PapulatusSkill5">
+      <UniqueIdentifier>{a1ed2c92-9ca1-4b8f-bea5-2214ac54da83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\00.PapulatusSkill1\00.PapulatusSkillArea">
+      <UniqueIdentifier>{6d3c8356-eca6-4839-b501-34b738bfaee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\04.PapulatusSkill5\00.PapulatusSleep">
+      <UniqueIdentifier>{e35ca060-65ef-4088-b455-97cc2d00b036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect">
+      <UniqueIdentifier>{18c351a3-bc3a-4590-8656-5b06121f3f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\00.Attack">
+      <UniqueIdentifier>{3b1a4412-d469-42ba-9aa3-13a6ec09e140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\01.WarriorLeap">
+      <UniqueIdentifier>{7090f792-926e-464c-b79e-8d75cf0deed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\02.Raisingblow">
+      <UniqueIdentifier>{d7e6e3e4-a8d1-4d02-a7f9-b80a5f9dad0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\02.Raisingblow\RaisingblowHit">
+      <UniqueIdentifier>{c080a309-853e-4f21-84b2-d03e7a75dd58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\03.UpperCharge">
+      <UniqueIdentifier>{2221eeab-868d-47d2-b72d-0ef031ad119c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\04.Rush">
+      <UniqueIdentifier>{c20acdf6-0600-4d00-9cd9-f6142ac3d9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault">
+      <UniqueIdentifier>{799a9fcb-84d1-42f2-aa80-3d7f784e8fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\00.ComboDeathFaultPlayer">
+      <UniqueIdentifier>{8dd627ff-47c1-4daa-bff6-70592d894cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\01.ComboDeathFaultScreen">
+      <UniqueIdentifier>{5a207123-d89f-48e3-8829-3d484d2f5086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\02.ComboDeathFaultHit">
+      <UniqueIdentifier>{e8faf784-7236-463c-a4a5-74f37676e99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\02.Boss\02.PilotPapulatus">
+      <UniqueIdentifier>{49d84a00-242f-4fe6-974e-da52d918b151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\02.SkillSlot">
+      <UniqueIdentifier>{5c291222-37fe-4a38-8226-6862b9afec01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\03.Level">
+      <UniqueIdentifier>{49f3531f-d8f0-40a7-8c14-c864018c9ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene\07.EndScene">
+      <UniqueIdentifier>{8e77b5f0-0e39-41c4-a7cd-f7a78e8d2c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene\06.BossScene2">
+      <UniqueIdentifier>{dbed7756-885e-405a-8137-f1dfc3416375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\02.Boss\03.VonLeon">
+      <UniqueIdentifier>{6d672e1a-26ee-4afe-8c66-97cad5a0ecf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\02.Monster\02.Boss\03.VonLeon\00.VonLeonHuman">
+      <UniqueIdentifier>{31a4ac53-8fd7-4797-9466-7916b3a25bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill">
+      <UniqueIdentifier>{a18be255-cba7-4b06-b576-d26908805848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\00.VonLeonSkill1">
+      <UniqueIdentifier>{a0c07b06-6d0e-483b-9abc-9e1c6a0f644b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\01.VonLeonSkill2">
+      <UniqueIdentifier>{7b4a9392-a46b-4eac-98e1-da6e093447ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\02.VonLeonSkill3">
+      <UniqueIdentifier>{f24a9c00-c093-4d6c-aed6-d1b162d6ecb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\03.VonLeonSkill4">
+      <UniqueIdentifier>{7a50eb41-1869-4a4c-8be0-df9abb5fd1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\04.VonLeonSkill5">
+      <UniqueIdentifier>{a3beb051-c996-4934-9454-c77957991e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\05.VonLeonTeleport">
+      <UniqueIdentifier>{97d4da9f-985f-461e-b47c-1b8acdb325da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\02.VonLeonHpBar">
+      <UniqueIdentifier>{8498b1ac-6853-4312-95f4-d5cce3a0bd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\06.VonLeonTeleportAfter">
+      <UniqueIdentifier>{42b29b4d-54ec-4049-9686-da57c96bcbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\02.ConditionEffect">
+      <UniqueIdentifier>{040fa7c9-6e73-4021-bea0-3ca7c102ff13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\02.ConditionEffect\00.Stun">
+      <UniqueIdentifier>{1289b008-8132-4fb5-a2c4-96cd44223553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\03.Buff">
+      <UniqueIdentifier>{f575875f-86ff-445b-9ec4-9a769e4e6ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\07.LevelUp">
+      <UniqueIdentifier>{d36c1bba-f65c-4bba-8256-31e8f5f1322a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\06.ComboSynergy">
+      <UniqueIdentifier>{dc4ba0a2-35f3-4c1f-84ea-2446dc08df46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\06.ComboSynergy\00.ComboSynergyBody">
+      <UniqueIdentifier>{455dc2bf-6694-4fcc-8e2e-4a70e4fff884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\03.Effect\00.PlayerEffect\06.ComboSynergy\01.ComboSynergyEffect">
+      <UniqueIdentifier>{7638aadf-1f39-451d-a224-888dbf494645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\GameObject\04.UI\04.BuffIcon">
+      <UniqueIdentifier>{26c28691-3c13-4f52-8da7-5311f0f0db78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>Windows\Resource</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Windows\Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="exApplication.cpp">
+      <Filter>Engine\High Level Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="exInput.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="exTime.cpp">
+      <Filter>Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="exScene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="exEntity.cpp">
+      <Filter>Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="exLayer.cpp">
+      <Filter>Engine\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="exGameObject.cpp">
+      <Filter>Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="exTransform.cpp">
+      <Filter>Engine\Component\00.Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="exSpriteRenderer.cpp">
+      <Filter>Engine\Component\01.SpriteRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="exComponent.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="exSceneManager.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="exPlayer.cpp">
+      <Filter>Contents\GameObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="exResource.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="exResourceManager.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="exTexture.cpp">
+      <Filter>Engine\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="exBackGround.cpp">
+      <Filter>Contents\GameObject\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="exMath.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="exCamera.cpp">
+      <Filter>Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="exAnimator.cpp">
+      <Filter>Engine\Component\02.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="exAnimation.cpp">
+      <Filter>Engine\Resource\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="exTitleScene.cpp">
+      <Filter>Contents\Scene\00.TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="exStageScene.cpp">
+      <Filter>Contents\Scene\01.StageScene</Filter>
+    </ClCompile>
+    <ClCompile Include="exGreenMush.cpp">
+      <Filter>Contents\GameObject\02.Monster\00.Normal\00.GreenMush</Filter>
+    </ClCompile>
+    <ClCompile Include="exMonsters.cpp">
+      <Filter>Contents\GameObject\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="exOrangeMush.cpp">
+      <Filter>Contents\GameObject\02.Monster\00.Normal\01.OrangeMush</Filter>
+    </ClCompile>
+    <ClCompile Include="exCollider.cpp">
+      <Filter>Engine\Component\03.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="exCollisionManager.cpp">
+      <Filter>Engine\Component\04.CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="exRigidbody.cpp">
+      <Filter>Engine\Component\05.Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="exUI.cpp">
+      <Filter>Contents\GameObject\04.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="exFloor.cpp">
+      <Filter>Contents\GameObject\05.Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatus.cpp">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\01.Papulatus</Filter>
+    </ClCompile>
+    <ClCompile Include="exBossScene.cpp">
+      <Filter>Contents\Scene\05.BossScene</Filter>
+    </ClCompile>
+    <ClCompile Include="exPlayerAttack.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\00.Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="exEffectManger.cpp">
+      <Filter>Contents\GameObject\03.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="exPortal.cpp">
+      <Filter>Contents\GameObject\06.Potal</Filter>
+    </ClCompile>
+    <ClCompile Include="exWall.cpp">
+      <Filter>Contents\GameObject\07.Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="exRope.cpp">
+      <Filter>Contents\GameObject\08.Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="exStageScene2.cpp">
+      <Filter>Contents\Scene\03.StageScene2</Filter>
+    </ClCompile>
+    <ClCompile Include="exMushMomScene.cpp">
+      <Filter>Contents\Scene\02.MushMomScene</Filter>
+    </ClCompile>
+    <ClCompile Include="exStageScene3.cpp">
+      <Filter>Contents\Scene\04.StageScene3</Filter>
+    </ClCompile>
+    <ClCompile Include="exLogin.cpp">
+      <Filter>Contents\GameObject\09.Login</Filter>
+    </ClCompile>
+    <ClCompile Include="exWarriorLeap.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\01.WarriorLeap</Filter>
+    </ClCompile>
+    <ClCompile Include="exRaisingblow.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\02.Raisingblow</Filter>
+    </ClCompile>
+    <ClCompile Include="exRaisingblowHit.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\02.Raisingblow\RaisingblowHit</Filter>
+    </ClCompile>
+    <ClCompile Include="exRobo.cpp">
+      <Filter>Contents\GameObject\02.Monster\00.Normal\02.Robo</Filter>
+    </ClCompile>
+    <ClCompile Include="exMasterRobo.cpp">
+      <Filter>Contents\GameObject\02.Monster\00.Normal\03.MasterRobo</Filter>
+    </ClCompile>
+    <ClCompile Include="exMushMom.cpp">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\00.MushMom</Filter>
+    </ClCompile>
+    <ClCompile Include="exGatekeeper.cpp">
+      <Filter>Contents\GameObject\02.Monster\01.Ability\00.GateKeeper</Filter>
+    </ClCompile>
+    <ClCompile Include="exThanatos.cpp">
+      <Filter>Contents\GameObject\02.Monster\01.Ability\01.Thanatos</Filter>
+    </ClCompile>
+    <ClCompile Include="exUpperCharge.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\03.UpperCharge</Filter>
+    </ClCompile>
+    <ClCompile Include="exRush.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\04.Rush</Filter>
+    </ClCompile>
+    <ClCompile Include="exHpBar.cpp">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\00.HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="exMpBar.cpp">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\01.MpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="exExpBar.cpp">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\02.ExpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="exDamageSkin.cpp">
+      <Filter>Contents\GameObject\04.UI\01.DamageManager\00.PlayerDamageSkin</Filter>
+    </ClCompile>
+    <ClCompile Include="exDamageManager.cpp">
+      <Filter>Contents\GameObject\04.UI\01.DamageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="exMonsterDamageSkin.cpp">
+      <Filter>Contents\GameObject\04.UI\01.DamageManager\02.MonsterDamageSkin</Filter>
+    </ClCompile>
+    <ClCompile Include="exMushMomSkill.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\03.MushMomSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="exMushMomHpBar.cpp">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\00.MushMomBar</Filter>
+    </ClCompile>
+    <ClCompile Include="exComboDeathFaultPlayer.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\00.ComboDeathFaultPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="exComboDeathFaultScreen.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\01.ComboDeathFaultScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="exComboDeathFaultHit.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\02.ComboDeathFaultHit</Filter>
+    </ClCompile>
+    <ClCompile Include="exGateKeeperAttack.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\00.GateKeeperAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="exThanatosAttack.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\01.ThanatosAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatusHpBar.cpp">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\01.PapulatusHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="exStatusBar.cpp">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar</Filter>
+    </ClCompile>
+    <ClCompile Include="exSound.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="exSoundManager.cpp">
+      <Filter>Engine\Sound\00.SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="exMasterCronus.cpp">
+      <Filter>Contents\GameObject\02.Monster\01.Ability\02.MasterCronus</Filter>
+    </ClCompile>
+    <ClCompile Include="exMasterCronusAttack.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\02.MasterCronusAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatusSkill1.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\00.PapulatusSkill1</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatusSkill2.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\01.PapulatusSkill2</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatusSkill3.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\02.PapulatusSkill3</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatusSkill4.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\03.PapulatusSkill4</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatusSkill5.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\04.PapulatusSkill5</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatusSkillArea.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\00.PapulatusSkill1\00.PapulatusSkillArea</Filter>
+    </ClCompile>
+    <ClCompile Include="exPapulatusSleep.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\04.PapulatusSkill5\00.PapulatusSleep</Filter>
+    </ClCompile>
+    <ClCompile Include="exPilotPapulatus.cpp">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\02.PilotPapulatus</Filter>
+    </ClCompile>
+    <ClCompile Include="exLevelUp.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\07.LevelUp</Filter>
+    </ClCompile>
+    <ClCompile Include="exSkillSlot.cpp">
+      <Filter>Contents\GameObject\04.UI\02.SkillSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="exLevel.cpp">
+      <Filter>Contents\GameObject\04.UI\03.Level</Filter>
+    </ClCompile>
+    <ClCompile Include="exEndScene.cpp">
+      <Filter>Contents\Scene\07.EndScene</Filter>
+    </ClCompile>
+    <ClCompile Include="exBossScene2.cpp">
+      <Filter>Contents\Scene\06.BossScene2</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeon.cpp">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\03.VonLeon</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonHuman.cpp">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\03.VonLeon\00.VonLeonHuman</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonSkill1.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\00.VonLeonSkill1</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonSkill2.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\01.VonLeonSkill2</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonSkill3.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\02.VonLeonSkill3</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonSkill4.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\03.VonLeonSkill4</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonSkill5.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\04.VonLeonSkill5</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonTeleport.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\05.VonLeonTeleport</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonHpBar.cpp">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\02.VonLeonHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="exVonLeonTeleportAfter.cpp">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\06.VonLeonTeleportAfter</Filter>
+    </ClCompile>
+    <ClCompile Include="exStun.cpp">
+      <Filter>Contents\GameObject\03.Effect\02.ConditionEffect\00.Stun</Filter>
+    </ClCompile>
+    <ClCompile Include="exBuff.cpp">
+      <Filter>Contents\GameObject\03.Effect\03.Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="exComboSynergyBody.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\06.ComboSynergy\00.ComboSynergyBody</Filter>
+    </ClCompile>
+    <ClCompile Include="exComboSynergyEffect.cpp">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\06.ComboSynergy\01.ComboSynergyEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="exBuffIcon.cpp">
+      <Filter>Contents\GameObject\04.UI\04.BuffIcon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Windows\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Windows\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Windows\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Windows\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="exCommonInclude.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="exMath.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="exApplication.h">
+      <Filter>Engine\High Level Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="exInput.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="exTime.h">
+      <Filter>Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="exScene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="exEntity.h">
+      <Filter>Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="exLayer.h">
+      <Filter>Engine\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="exGameObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="exTransform.h">
+      <Filter>Engine\Component\00.Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="exSpriteRenderer.h">
+      <Filter>Engine\Component\01.SpriteRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="exComponent.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="exObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="exSceneManager.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="exPlayer.h">
+      <Filter>Contents\GameObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="exResource.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="exResourceManager.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="exTexture.h">
+      <Filter>Engine\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="exBackGround.h">
+      <Filter>Contents\GameObject\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="exCamera.h">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="exAnimator.h">
+      <Filter>Engine\Component\02.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="exAnimation.h">
+      <Filter>Engine\Resource\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="exTitleScene.h">
+      <Filter>Contents\Scene\00.TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="exStageScene.h">
+      <Filter>Contents\Scene\01.StageScene</Filter>
+    </ClInclude>
+    <ClInclude Include="exGreenMush.h">
+      <Filter>Contents\GameObject\02.Monster\00.Normal\00.GreenMush</Filter>
+    </ClInclude>
+    <ClInclude Include="exMonsters.h">
+      <Filter>Contents\GameObject\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="exOrangeMush.h">
+      <Filter>Contents\GameObject\02.Monster\00.Normal\01.OrangeMush</Filter>
+    </ClInclude>
+    <ClInclude Include="exCollider.h">
+      <Filter>Engine\Component\03.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="exCollisionManager.h">
+      <Filter>Engine\Component\04.CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="exRigidbody.h">
+      <Filter>Engine\Component\05.Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="exUI.h">
+      <Filter>Contents\GameObject\04.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="exFloor.h">
+      <Filter>Contents\GameObject\05.Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatus.h">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\01.Papulatus</Filter>
+    </ClInclude>
+    <ClInclude Include="exBossScene.h">
+      <Filter>Contents\Scene\05.BossScene</Filter>
+    </ClInclude>
+    <ClInclude Include="exPlayerAttack.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\00.Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="exEffectManger.h">
+      <Filter>Contents\GameObject\03.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="exPortal.h">
+      <Filter>Contents\GameObject\06.Potal</Filter>
+    </ClInclude>
+    <ClInclude Include="exWall.h">
+      <Filter>Contents\GameObject\07.Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="exRope.h">
+      <Filter>Contents\GameObject\08.Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="exStageScene2.h">
+      <Filter>Contents\Scene\03.StageScene2</Filter>
+    </ClInclude>
+    <ClInclude Include="exMushMomScene.h">
+      <Filter>Contents\Scene\02.MushMomScene</Filter>
+    </ClInclude>
+    <ClInclude Include="exStageScene3.h">
+      <Filter>Contents\Scene\04.StageScene3</Filter>
+    </ClInclude>
+    <ClInclude Include="exLogin.h">
+      <Filter>Contents\GameObject\09.Login</Filter>
+    </ClInclude>
+    <ClInclude Include="exWarriorLeap.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\01.WarriorLeap</Filter>
+    </ClInclude>
+    <ClInclude Include="exRaisingblow.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\02.Raisingblow</Filter>
+    </ClInclude>
+    <ClInclude Include="exRaisingblowHit.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\02.Raisingblow\RaisingblowHit</Filter>
+    </ClInclude>
+    <ClInclude Include="exRobo.h">
+      <Filter>Contents\GameObject\02.Monster\00.Normal\02.Robo</Filter>
+    </ClInclude>
+    <ClInclude Include="exMasterRobo.h">
+      <Filter>Contents\GameObject\02.Monster\00.Normal\03.MasterRobo</Filter>
+    </ClInclude>
+    <ClInclude Include="exMushMom.h">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\00.MushMom</Filter>
+    </ClInclude>
+    <ClInclude Include="exGatekeeper.h">
+      <Filter>Contents\GameObject\02.Monster\01.Ability\00.GateKeeper</Filter>
+    </ClInclude>
+    <ClInclude Include="exThanatos.h">
+      <Filter>Contents\GameObject\02.Monster\01.Ability\01.Thanatos</Filter>
+    </ClInclude>
+    <ClInclude Include="exUpperCharge.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\03.UpperCharge</Filter>
+    </ClInclude>
+    <ClInclude Include="exRush.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\04.Rush</Filter>
+    </ClInclude>
+    <ClInclude Include="exStatusBar.h">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar</Filter>
+    </ClInclude>
+    <ClInclude Include="exHpBar.h">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\00.HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="exMpBar.h">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\01.MpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="exExpBar.h">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\00.PlayerBar\02.ExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="exDamageSkin.h">
+      <Filter>Contents\GameObject\04.UI\01.DamageManager\00.PlayerDamageSkin</Filter>
+    </ClInclude>
+    <ClInclude Include="exDamageManager.h">
+      <Filter>Contents\GameObject\04.UI\01.DamageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="exMonsterDamageSkin.h">
+      <Filter>Contents\GameObject\04.UI\01.DamageManager\02.MonsterDamageSkin</Filter>
+    </ClInclude>
+    <ClInclude Include="exMushMomSkill.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\03.MushMomSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="exMushMomHpBar.h">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\00.MushMomBar</Filter>
+    </ClInclude>
+    <ClInclude Include="exComboDeathFaultPlayer.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\00.ComboDeathFaultPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="exComboDeathFaultScreen.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\01.ComboDeathFaultScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="exComboDeathFaultHit.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\05.ComboDeathFault\02.ComboDeathFaultHit</Filter>
+    </ClInclude>
+    <ClInclude Include="exGateKeeperAttack.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\00.GateKeeperAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="exThanatosAttack.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\01.ThanatosAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatusHpBar.h">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\01.PapulatusHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="exSound.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="exSoundManager.h">
+      <Filter>Engine\Sound\00.SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="exMasterCronus.h">
+      <Filter>Contents\GameObject\02.Monster\01.Ability\02.MasterCronus</Filter>
+    </ClInclude>
+    <ClInclude Include="exMasterCronusAttack.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\02.MasterCronusAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatusSkill1.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\00.PapulatusSkill1</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatusSkill2.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\01.PapulatusSkill2</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatusSkill3.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\02.PapulatusSkill3</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatusSkill4.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\03.PapulatusSkill4</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatusSkill5.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\04.PapulatusSkill5</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatusSkillArea.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\00.PapulatusSkill1\00.PapulatusSkillArea</Filter>
+    </ClInclude>
+    <ClInclude Include="exPapulatusSleep.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\04.PapulatusSkill\04.PapulatusSkill5\00.PapulatusSleep</Filter>
+    </ClInclude>
+    <ClInclude Include="exPilotPapulatus.h">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\02.PilotPapulatus</Filter>
+    </ClInclude>
+    <ClInclude Include="exLevelUp.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\07.LevelUp</Filter>
+    </ClInclude>
+    <ClInclude Include="exSkillSlot.h">
+      <Filter>Contents\GameObject\04.UI\02.SkillSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="exLevel.h">
+      <Filter>Contents\GameObject\04.UI\03.Level</Filter>
+    </ClInclude>
+    <ClInclude Include="exEndScene.h">
+      <Filter>Contents\Scene\07.EndScene</Filter>
+    </ClInclude>
+    <ClInclude Include="exBossScene2.h">
+      <Filter>Contents\Scene\06.BossScene2</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeon.h">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\03.VonLeon</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonHuman.h">
+      <Filter>Contents\GameObject\02.Monster\02.Boss\03.VonLeon\00.VonLeonHuman</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonSkill1.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\00.VonLeonSkill1</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonSkill2.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\01.VonLeonSkill2</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonSkill3.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\02.VonLeonSkill3</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonSkill4.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\03.VonLeonSkill4</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonSkill5.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\04.VonLeonSkill5</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonTeleport.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\05.VonLeonTeleport</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonHpBar.h">
+      <Filter>Contents\GameObject\04.UI\00.StatusBar\01.MonsterBar\02.VonLeonHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="exVonLeonTeleportAfter.h">
+      <Filter>Contents\GameObject\03.Effect\01.MonsterEffect\05.VonLeonSkill\06.VonLeonTeleportAfter</Filter>
+    </ClInclude>
+    <ClInclude Include="exStun.h">
+      <Filter>Contents\GameObject\03.Effect\02.ConditionEffect\00.Stun</Filter>
+    </ClInclude>
+    <ClInclude Include="exBuff.h">
+      <Filter>Contents\GameObject\03.Effect\03.Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="exComboSynergyBody.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\06.ComboSynergy\00.ComboSynergyBody</Filter>
+    </ClInclude>
+    <ClInclude Include="exComboSynergyEffect.h">
+      <Filter>Contents\GameObject\03.Effect\00.PlayerEffect\06.ComboSynergy\01.ComboSynergyEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="exBuffIcon.h">
+      <Filter>Contents\GameObject\04.UI\04.BuffIcon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>Windows\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

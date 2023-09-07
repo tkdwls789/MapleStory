@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0e00b9ba-8440-4bea-861a-878337b84a32}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="exBossScene2.cpp" />
+    <ClCompile Include="exBuff.cpp" />
+    <ClCompile Include="exBuffIcon.cpp" />
+    <ClCompile Include="exComboDeathFaultHit.cpp" />
+    <ClCompile Include="exComboDeathFaultPlayer.cpp" />
+    <ClCompile Include="exComboDeathFaultScreen.cpp" />
+    <ClCompile Include="exComboSynergyBody.cpp" />
+    <ClCompile Include="exComboSynergyEffect.cpp" />
+    <ClCompile Include="exDamageManager.cpp" />
+    <ClCompile Include="exDamageSkin.cpp" />
+    <ClCompile Include="exEffectManger.cpp" />
+    <ClCompile Include="exApplication.cpp" />
+    <ClCompile Include="exCollisionManager.cpp" />
+    <ClCompile Include="exComponent.cpp" />
+    <ClCompile Include="exCollider.cpp" />
+    <ClCompile Include="exEndScene.cpp" />
+    <ClCompile Include="exGatekeeper.cpp" />
+    <ClCompile Include="exGateKeeperAttack.cpp" />
+    <ClCompile Include="exStun.cpp" />
+    <ClCompile Include="exVonLeonHpBar.cpp" />
+    <ClCompile Include="exVonLeonHuman.cpp" />
+    <ClCompile Include="exLevel.cpp" />
+    <ClCompile Include="exLevelUp.cpp" />
+    <ClCompile Include="exMasterCronus.cpp" />
+    <ClCompile Include="exMasterCronusAttack.cpp" />
+    <ClCompile Include="exMasterRobo.cpp" />
+    <ClCompile Include="exMonsterDamageSkin.cpp" />
+    <ClCompile Include="exMushMom.cpp" />
+    <ClCompile Include="exMushMomHpBar.cpp" />
+    <ClCompile Include="exMushMomSkill.cpp" />
+    <ClCompile Include="exOrangeMush.cpp" />
+    <ClCompile Include="exFloor.cpp" />
+    <ClCompile Include="exGreenMush.cpp" />
+    <ClCompile Include="exMonsters.cpp" />
+    <ClCompile Include="exPapulatusHpBar.cpp" />
+    <ClCompile Include="exPapulatusSkill1.cpp" />
+    <ClCompile Include="exPapulatusSkill2.cpp" />
+    <ClCompile Include="exPapulatusSkill3.cpp" />
+    <ClCompile Include="exPapulatusSkill4.cpp" />
+    <ClCompile Include="exPapulatusSkill5.cpp" />
+    <ClCompile Include="exPapulatusSkillArea.cpp" />
+    <ClCompile Include="exPapulatusSleep.cpp" />
+    <ClCompile Include="exPilotPapulatus.cpp" />
+    <ClCompile Include="exPlayerAttack.cpp" />
+    <ClCompile Include="exHpBar.cpp" />
+    <ClCompile Include="exMpBar.cpp" />
+    <ClCompile Include="exSkillSlot.cpp" />
+    <ClCompile Include="exSound.cpp" />
+    <ClCompile Include="exSoundManager.cpp" />
+    <ClCompile Include="exStatusBar.cpp" />
+    <ClCompile Include="exPortal.cpp" />
+    <ClCompile Include="exRaisingblow.cpp" />
+    <ClCompile Include="exRaisingblowHit.cpp" />
+    <ClCompile Include="exRigidbody.cpp" />
+    <ClCompile Include="exLogin.cpp" />
+    <ClCompile Include="exRobo.cpp" />
+    <ClCompile Include="exRope.cpp" />
+    <ClCompile Include="exRush.cpp" />
+    <ClCompile Include="exStageScene3.cpp" />
+    <ClCompile Include="exThanatos.cpp" />
+    <ClCompile Include="exThanatosAttack.cpp" />
+    <ClCompile Include="exUI.cpp" />
+    <ClCompile Include="exMushMomScene.cpp" />
+    <ClCompile Include="exEntity.cpp" />
+    <ClCompile Include="exAnimation.cpp" />
+    <ClCompile Include="exAnimator.cpp" />
+    <ClCompile Include="exBackGround.cpp" />
+    <ClCompile Include="exBossScene.cpp" />
+    <ClCompile Include="exCamera.cpp" />
+    <ClCompile Include="exStageScene2.cpp" />
+    <ClCompile Include="exTexture.cpp" />
+    <ClCompile Include="exResource.cpp" />
+    <ClCompile Include="exStageScene.cpp" />
+    <ClCompile Include="exGameObject.cpp" />
+    <ClCompile Include="exInput.cpp" />
+    <ClCompile Include="exLayer.cpp" />
+    <ClCompile Include="exPapulatus.cpp" />
+    <ClCompile Include="exUpperCharge.cpp" />
+    <ClCompile Include="exVonLeon.cpp" />
+    <ClCompile Include="exVonLeonSkill1.cpp" />
+    <ClCompile Include="exVonLeonSkill2.cpp" />
+    <ClCompile Include="exVonLeonSkill3.cpp" />
+    <ClCompile Include="exVonLeonSkill4.cpp" />
+    <ClCompile Include="exVonLeonSkill5.cpp" />
+    <ClCompile Include="exVonLeonTeleport.cpp" />
+    <ClCompile Include="exVonLeonTeleportAfter.cpp" />
+    <ClCompile Include="exWall.cpp" />
+    <ClCompile Include="exWarriorLeap.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="exMath.cpp" />
+    <ClCompile Include="exPlayer.cpp" />
+    <ClCompile Include="exResourceManager.cpp" />
+    <ClCompile Include="exScene.cpp" />
+    <ClCompile Include="exSceneManager.cpp" />
+    <ClCompile Include="exSpriteRenderer.cpp" />
+    <ClCompile Include="exTime.cpp" />
+    <ClCompile Include="exTitleScene.cpp" />
+    <ClCompile Include="exTransform.cpp" />
+    <ClCompile Include="exExpBar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exBossScene2.h" />
+    <ClInclude Include="exBuff.h" />
+    <ClInclude Include="exBuffIcon.h" />
+    <ClInclude Include="exComboDeathFaultHit.h" />
+    <ClInclude Include="exComboDeathFaultPlayer.h" />
+    <ClInclude Include="exComboDeathFaultScreen.h" />
+    <ClInclude Include="exComboSynergyBody.h" />
+    <ClInclude Include="exComboSynergyEffect.h" />
+    <ClInclude Include="exDamageManager.h" />
+    <ClInclude Include="exDamageSkin.h" />
+    <ClInclude Include="exEffectManger.h" />
+    <ClInclude Include="exCollisionManager.h" />
+    <ClInclude Include="exCollider.h" />
+    <ClInclude Include="exEndScene.h" />
+    <ClInclude Include="exGatekeeper.h" />
+    <ClInclude Include="exGateKeeperAttack.h" />
+    <ClInclude Include="exStun.h" />
+    <ClInclude Include="exVonLeonHpBar.h" />
+    <ClInclude Include="exVonLeonHuman.h" />
+    <ClInclude Include="exLevel.h" />
+    <ClInclude Include="exLevelUp.h" />
+    <ClInclude Include="exMasterCronus.h" />
+    <ClInclude Include="exMasterCronusAttack.h" />
+    <ClInclude Include="exMasterRobo.h" />
+    <ClInclude Include="exMonsterDamageSkin.h" />
+    <ClInclude Include="exMushMom.h" />
+    <ClInclude Include="exMushMomHpBar.h" />
+    <ClInclude Include="exMushMomSkill.h" />
+    <ClInclude Include="exOrangeMush.h" />
+    <ClInclude Include="exFloor.h" />
+    <ClInclude Include="exGreenMush.h" />
+    <ClInclude Include="exMonsters.h" />
+    <ClInclude Include="exPapulatusHpBar.h" />
+    <ClInclude Include="exPapulatusSkill1.h" />
+    <ClInclude Include="exPapulatusSkill2.h" />
+    <ClInclude Include="exPapulatusSkill3.h" />
+    <ClInclude Include="exPapulatusSkill4.h" />
+    <ClInclude Include="exPapulatusSkill5.h" />
+    <ClInclude Include="exPapulatusSkillArea.h" />
+    <ClInclude Include="exPapulatusSleep.h" />
+    <ClInclude Include="exPilotPapulatus.h" />
+    <ClInclude Include="exPlayerAttack.h" />
+    <ClInclude Include="exHpBar.h" />
+    <ClInclude Include="exMpBar.h" />
+    <ClInclude Include="exSkillSlot.h" />
+    <ClInclude Include="exSound.h" />
+    <ClInclude Include="exSoundManager.h" />
+    <ClInclude Include="exStatusBar.h" />
+    <ClInclude Include="exPortal.h" />
+    <ClInclude Include="exRaisingblow.h" />
+    <ClInclude Include="exRaisingblowHit.h" />
+    <ClInclude Include="exRigidbody.h" />
+    <ClInclude Include="exLogin.h" />
+    <ClInclude Include="exRobo.h" />
+    <ClInclude Include="exRope.h" />
+    <ClInclude Include="exRush.h" />
+    <ClInclude Include="exStageScene3.h" />
+    <ClInclude Include="exThanatos.h" />
+    <ClInclude Include="exThanatosAttack.h" />
+    <ClInclude Include="exUI.h" />
+    <ClInclude Include="exMushMomScene.h" />
+    <ClInclude Include="exAnimation.h" />
+    <ClInclude Include="exAnimator.h" />
+    <ClInclude Include="exBackGround.h" />
+    <ClInclude Include="exBossScene.h" />
+    <ClInclude Include="exCamera.h" />
+    <ClInclude Include="exStageScene2.h" />
+    <ClInclude Include="exTexture.h" />
+    <ClInclude Include="exResource.h" />
+    <ClInclude Include="exStageScene.h" />
+    <ClInclude Include="exObject.h" />
+    <ClInclude Include="exApplication.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="exCommonInclude.h" />
+    <ClInclude Include="exComponent.h" />
+    <ClInclude Include="exEntity.h" />
+    <ClInclude Include="exPapulatus.h" />
+    <ClInclude Include="exUpperCharge.h" />
+    <ClInclude Include="exVonLeon.h" />
+    <ClInclude Include="exVonLeonSkill1.h" />
+    <ClInclude Include="exVonLeonSkill2.h" />
+    <ClInclude Include="exVonLeonSkill3.h" />
+    <ClInclude Include="exVonLeonSkill4.h" />
+    <ClInclude Include="exVonLeonSkill5.h" />
+    <ClInclude Include="exVonLeonTeleport.h" />
+    <ClInclude Include="exVonLeonTeleportAfter.h" />
+    <ClInclude Include="exWall.h" />
+    <ClInclude Include="exWarriorLeap.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="exGameObject.h" />
+    <ClInclude Include="exInput.h" />
+    <ClInclude Include="exLayer.h" />
+    <ClInclude Include="exMath.h" />
+    <ClInclude Include="exPlayer.h" />
+    <ClInclude Include="exExpBar.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="exResourceManager.h" />
+    <ClInclude Include="exScene.h" />
+    <ClInclude Include="exSceneManager.h" />
+    <ClInclude Include="exSpriteRenderer.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="exTime.h" />
+    <ClInclude Include="exTitleScene.h" />
+    <ClInclude Include="exTransform.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
